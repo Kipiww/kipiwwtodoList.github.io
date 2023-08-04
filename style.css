@@ -1,0 +1,139 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;800;900&display=swap');
+
+ :root{
+     --radius: 20px;
+ }
+
+ *{
+    font-family: 'Monserrat',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+ }
+ body{
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+  
+    align-items: center;
+    background: #777;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+ }
+ header{
+    color: #000;
+    margin-bottom: 20px;
+ }
+ .container{
+    background: #e8e2df;
+    padding:  2rem;
+    border-radius: var(--radius);
+    text-align: center;
+    width: 700px;
+    height: auto;
+    max-height: 700px;
+    
+ }
+ .container form input{
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    padding-left: 15px;
+    width: 50%;
+    outline: none;
+ }
+ .container form input::placeholder{
+    text-align: center;
+ }
+ .container form button{
+    position: relative;
+    right: 20px;
+    top: 2px;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .addedContainer{/*container to*/
+    background:transparent;
+    margin-top: 30px;
+    
+ }
+ .addedContainer p{
+    color:#000;
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+ }
+ .listContainer {/*new div class*/
+    background: #fff;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    
+ }
+
+.checkBtn img{
+    height: 20px;
+    text-align: center;
+    
+}
+
+.checkBtn {
+   background: #fff;
+   border: none;
+  
+}
+.crossBtn img{
+   
+   height: 20px;
+   
+}
+.crossBtn{ /*new button class inside to the li */
+   background: #fff;
+   border: none;
+   
+
+}
+
+.list{
+   padding: 5px;
+}
+.listContainer li{
+   margin: auto;
+}
+.type img{
+   height: 20px;
+   
+}
+.container form button{
+   position: relative;
+   right: 30px;
+   top: 5px;
+   bottom: 10px;
+}
+
+/* all buttons is pointer */
+button{
+   cursor: pointer;
+}
+.completed{
+   text-decoration: line-through;
+   transition: .2s;
+}
+.crossBtn, .checkBtn{
+   margin: 0 7px;
+}
+#clickButton{
+   position: relative;
+   bottom: 120px;
+}
+.fa-solid {
+   position: relative;
+   bottom: 2px;
+}
